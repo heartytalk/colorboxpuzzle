@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -6,12 +5,16 @@
     <title>컬러 박스 퍼즐</title>
     <style>
         .container { text-align: center; padding: 20px; display: flex; flex-direction: column; align-items: center; }
-        .box-container { display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; }
-        .box { width: 100px; height: 100px; border: 1px solid #000; }
-        .color-buttons { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
-        .color-button { width: 100px; height: 100px; border: none; cursor: pointer; }
-        .action-buttons { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; align-items: center; }
-        .footer { margin-top: 40px; font-size: 14px; text-align: center; }
+        .box-container { display: flex; justify-content: center; gap: 2vw; margin-bottom: 2vw; }
+        .box { width: 10vw; height: 10vw; max-width: 100px; max-height: 100px; border: 1px solid #000; }
+        .color-buttons { display: flex; justify-content: center; gap: 2vw; margin-bottom: 2vw; flex-wrap: wrap; }
+        .color-button { width: 10vw; height: 10vw; max-width: 100px; max-height: 100px; border: none; cursor: pointer; }
+        .action-buttons { margin-top: 2vw; display: flex; flex-direction: column; gap: 1vw; align-items: center; }
+        .footer { margin-top: 4vw; font-size: 1rem; text-align: center; }
+        @media (max-width: 600px) {
+            .box { width: 15vw; height: 15vw; }
+            .color-button { width: 15vw; height: 15vw; }
+        }
     </style>
 </head>
 <body>
@@ -102,4 +105,5 @@
     </script>
 </body>
 </html>
+
 

@@ -1,15 +1,16 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>컬러 박스 퍼즐</title>
     <style>
-        .container { text-align: center; padding: 20px; }
-        .box-container { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
-        .box { width: 50px; height: 50px; border: 1px solid #000; }
-        .color-buttons { display: flex; justify-content: center; gap: 5px; margin-bottom: 20px; }
-        .color-button { width: 50px; height: 50px; border: none; cursor: pointer; }
-        .action-buttons { margin-top: 20px; }
+        .container { text-align: center; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .box-container { display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; }
+        .box { width: 100px; height: 100px; border: 1px solid #000; }
+        .color-buttons { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+        .color-button { width: 100px; height: 100px; border: none; cursor: pointer; }
+        .action-buttons { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; align-items: center; }
         .footer { margin-top: 40px; font-size: 14px; text-align: center; }
     </style>
 </head>
@@ -101,3 +102,4 @@
     </script>
 </body>
 </html>
+

@@ -11,6 +11,7 @@
         .color-button { width: 10vw; height: 10vw; max-width: 100px; max-height: 100px; border: none; cursor: pointer; }
         .action-buttons { margin-top: 2vw; display: flex; flex-direction: column; gap: 1vw; align-items: center; }
         .footer { margin-top: 4vw; font-size: 1rem; text-align: center; }
+        h1 { text-align: center; width: 100%; }
         @media (max-width: 600px) {
             .box { width: 15vw; height: 15vw; }
             .color-button { width: 15vw; height: 15vw; }
@@ -105,5 +106,3 @@
     </script>
 </body>
 </html>
-
-
